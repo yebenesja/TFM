@@ -1,0 +1,44 @@
+---
+title: "TFM"
+author: "yebenesja"
+date: "Febrero 2017"
+output:
+  pdf_document:
+    toc: yes
+  html_document:
+    fig_height: 5
+    fig_width: 7
+    number_sections: yes
+    theme: journal
+    toc: yes
+    toc_depth: 2
+  word_document: default
+---
+
+
+\pagebreak
+
+******
+# STUDENT ALCOHOL CONSUMPTION Data Set
+******
+
+
+******
+## Configuración del entorno de trabajo
+******
+
+```{r,eval=TRUE,echo=TRUE}
+# Establecer el directorio de trabajo
+
+# linux
+# setwd("/home/j82/Dropbox/UOC_Master/TFM/1_R/")
+
+# windows
+setwd("C:/Users/JoséAntonio/Dropbox/UOC_Master/TFM/1_R")
+getwd()
+
+#save.image("mywspace_TFM.RData") 
+load("mywspace_TFM.RData") 
+
+```
+
